@@ -5,10 +5,6 @@ public class Position {
 	private Integer row;
 	private Integer column;
 
-	public Position() {
-		super();
-	}
-
 	public Position(Integer row, Integer colum) {
 		this.row = row;
 		this.column = colum;
