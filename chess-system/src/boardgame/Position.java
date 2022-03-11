@@ -2,15 +2,15 @@ package boardgame;
 
 public class Position {
 
-	private Integer row;
-	private Integer column;
+	private int row;
+	private int column;
 
-	public Position(Integer row, Integer colum) {
+	public Position(int row, int colum) {
 		this.row = row;
 		this.column = colum;
 	}
 
-	public Integer getRow() {
+	public int getRow() {
 		return row;
 	}
 
@@ -18,11 +18,11 @@ public class Position {
 		this.row = row;
 	}
 
-	public Integer getColum() {
+	public int getColumn() {
 		return column;
 	}
 
-	public void setColum(Integer colum) {
+	public void setColumn(Integer colum) {
 		this.column = colum;
 	}
 
